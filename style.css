@@ -1,0 +1,131 @@
+:root{
+    --primary-color:#a517ba;
+    --secondary-color:#5f1782;
+    --navbar-link-color:#fff;
+    --light-section-color:#fff;
+    --dark-section-color:#f8f9fa;
+}
+
+body{
+    background-image: linear-gradient(to right,var(--primary-color),var(--secondary-color));
+    overflow-x: hidden;
+}
+.navbar{
+    background-image: linear-gradient(to right,var(--primary-color),var(--secondary-color));
+}
+
+.navbar-brand  {
+color: var(--navbar-link-color);
+font-weight: 800;
+}
+.my-text-style
+{
+    color: var(--navbar-link-color);
+    font-weight: 600;
+}
+
+.navbar-toggler{
+    outline: none !important;
+   color: transparent;
+   background-color: #fff;
+  
+}
+
+
+
+.my-text-style-hero{
+    color: var(--navbar-link-color);
+font-weight: 800;
+}
+
+.mysection {
+    margin: 0;
+    width: 100%;
+    background-image: linear-gradient(to right,var(--primary-color),var(--secondary-color));
+}
+
+#ourservices{
+    background-color: var(--light-section-color);
+   padding-top: 5rem;
+
+   padding-bottom: 5rem;
+
+}
+
+#ourservices .container img{
+
+    width: 15rem; height: 15rem;
+} 
+
+#ourservices .container .row{
+
+    border-top: 3px solid var(--secondary-color);
+}
+
+#ourservices .container .row .col div{
+    align-items: center;
+    border: none;
+}
+
+
+.heading{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    border-bottom: 4px solid var(--primary-color);
+    max-width: fit-content;
+
+   
+}
+
+
+
+#whychooseus{
+    background-color: var(--dark-section-color);
+    padding-top: 5rem;
+
+    padding-bottom: 5rem;
+}
+
+.mycardspecial{
+    border: none;
+    border-left: 3px solid var(--secondary-color);
+}
+
+#customerreview{
+    background-color: var(--light-section-color);
+    padding-top: 5rem;
+ 
+    padding-bottom: 5rem;
+}
+
+#socialmediabase{
+    background-color: var(--dark-section-color);
+    padding-top: 5rem;
+ 
+    padding-bottom: 5rem;
+}
+
+#socialmediabase .container .col{
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto;
+}
+
+
+.iconmanage i{
+   color: var(--light-section-color);
+   font-size: 1.2rem;
+   background-image: linear-gradient(to right,var(--primary-color),var(--secondary-color));;
+   padding: .75rem;
+   max-width: 2rem;
+   min-width: 2.5rem;
+}
+
+.iconmanage span{
+    color: var(--light-section-color);
+}
+
+#footerbase{
+    color: var(--light-section-color);
+}
